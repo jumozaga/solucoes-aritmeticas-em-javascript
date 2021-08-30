@@ -9,7 +9,7 @@ Saída
 Exiba todos os números pares até o valor de entrada, sendo um em cada linha. 
 
 Solução:
-
+Usando WHILE
 let n = gets()
 let i = 2
 while(i<=n) {
@@ -18,3 +18,12 @@ while(i<=n) {
         i+=2
       }
 } 
+
+ou
+Usando FOR
+let n = gets()
+for(let i=2; i<=n; i+=2){
+  if (i%2==0){
+    console.log(i)
+  }
+}
